@@ -1,17 +1,38 @@
 <resources>
-    <string name="app_name">RealtimeChat1</string>
+    <string name="app_name">RealtimeChat</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
+
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <!--メニューのタイトル -->
+    <string name="nav_title_invite">Invite</string>
+    <string name="nav_title_sign_out">Sign Out</string>
+
+    <!--Admob -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
     <string name="title_activity_sign_in">SignInActivity</string>
+
+    <!--Toast -->
+    <string name="google_sign_in_failed">Sign-In failed.</string>
+    <string name="firebase_auth_failed">Authentication failed.</string>
+    <string name="google_service_error">Google Play Services Error.</string>
+    <string name="invitation_sent_error">Invitation Sending Failed.</string>
+    <string name="invitation_sent_success">Invitation Sent.</string>
+    <string name="connection_failed">Connection Failed.</string>
+    <string name="get_image_failed">Unable to get image.</string>
+    <string name="db_write_error">Unable to write message.</string>
+    <string name="image_upload_error">Unable to upload image.</string>
+
+    <!-- 通知-->
+    <string name="notification_ticker">New Chat Message!!</string>
+
+    <!--App Invite -->
+    <string name="app_invite_title">Send Invitation for Realtime Chat</string>
+    <string name="app_invite_message">Join out Realtime Chat now</string>
+    <string name="app_invite_call_to_action">Join out Realtime Chat now</string>
+
+
+
 </resources>
